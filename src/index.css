@@ -1,0 +1,37 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    background-color: hsla(0, 0%, 0%, 0.927);
+}
+
+.container{
+    display: block;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0);
+}
+
+.count{
+    font-size: 5rem;
+    color: white;
+    background-color: hsla(0, 79%, 32%, 0);
+    
+}
+
+button{
+    padding: 5px 5px;
+    border: none;
+    border-radius: .4rem;
+    margin: .2rem;
+    background-color: royalblue;
+    color: white;
+}
+
+button:hover{
+    background-color: hsl(225, 73%, 44%);
+}
+
+button:active{
+    background-color: hsl(225, 64%, 64%);
+}
